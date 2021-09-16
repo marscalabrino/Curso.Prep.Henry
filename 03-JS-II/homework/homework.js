@@ -164,7 +164,7 @@ function esPrimo(numero) {
   // Nota: Los números 0 y 1 NO son considerados números primos
  
   // for ([initialization]; [condition]; [final-expression])
-      //  statement       ESTA LA COPIE NO ENCARE
+        //  statement       ESTA LA COPIE NO ENCARE
       if( numero < 2) return false;
       if(numero === 2) return true;
       for(var i = 2; i < numero; i++) {
